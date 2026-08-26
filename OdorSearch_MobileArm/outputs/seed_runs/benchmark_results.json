@@ -1,0 +1,204 @@
+[
+  {
+    "seed": 1,
+    "source_pos": [
+      0.7934990027689519,
+      -5.66929064108318,
+      0.826053932602442
+    ],
+    "success": true,
+    "steps": 261,
+    "final_distance": 0.45080537530740455,
+    "max_ee_ppm": 1486.3330428474455,
+    "collision_count": 0,
+    "state_counts": {
+      "BASE_TRACKING": 2,
+      "ARM_TRACKING": 258,
+      "FINISHED": 1
+    },
+    "summary_plot": "outputs\\seed_runs\\summary_seed1.png",
+    "warehouse_3d_plot": "outputs\\seed_runs\\warehouse_3d_seed1.png",
+    "history": "outputs\\seed_runs\\history_seed1.npz"
+  },
+  {
+    "seed": 2,
+    "source_pos": [
+      -3.6004901135033904,
+      1.8891961785071114,
+      0.7686796988341285
+    ],
+    "success": false,
+    "steps": 3000,
+    "final_distance": 14.261102303244737,
+    "max_ee_ppm": 2.171630251251977,
+    "collision_count": 0,
+    "state_counts": {
+      "RANDOM_WALK": 3000
+    },
+    "summary_plot": "outputs\\seed_runs\\summary_seed2.png",
+    "warehouse_3d_plot": "outputs\\seed_runs\\warehouse_3d_seed2.png",
+    "history": "outputs\\seed_runs\\history_seed2.npz"
+  },
+  {
+    "seed": 3,
+    "source_pos": [
+      3.7532344225474326,
+      -4.635935760943159,
+      0.7173684571486986
+    ],
+    "success": true,
+    "steps": 395,
+    "final_distance": 0.4255996964900782,
+    "max_ee_ppm": 1344.066787400626,
+    "collision_count": 0,
+    "state_counts": {
+      "BASE_TRACKING": 2,
+      "ARM_TRACKING": 392,
+      "FINISHED": 1
+    },
+    "summary_plot": "outputs\\seed_runs\\summary_seed3.png",
+    "warehouse_3d_plot": "outputs\\seed_runs\\warehouse_3d_seed3.png",
+    "history": "outputs\\seed_runs\\history_seed3.npz"
+  },
+  {
+    "seed": 4,
+    "source_pos": [
+      5.9461643870025025,
+      0.5272968091619781,
+      0.8706645239147965
+    ],
+    "success": false,
+    "steps": 3000,
+    "final_distance": 5.601213285976033,
+    "max_ee_ppm": 169.58037633072922,
+    "collision_count": 0,
+    "state_counts": {
+      "BASE_TRACKING": 2,
+      "ARM_TRACKING": 2998
+    },
+    "summary_plot": "outputs\\seed_runs\\summary_seed4.png",
+    "warehouse_3d_plot": "outputs\\seed_runs\\warehouse_3d_seed4.png",
+    "history": "outputs\\seed_runs\\history_seed4.npz"
+  },
+  {
+    "seed": 5,
+    "source_pos": [
+      -7.219876628365311,
+      5.990113380780857,
+      0.7957107334763963
+    ],
+    "success": false,
+    "steps": 3000,
+    "final_distance": 15.49631910947359,
+    "max_ee_ppm": 0.9968798326596864,
+    "collision_count": 0,
+    "state_counts": {
+      "RANDOM_WALK": 3000
+    },
+    "summary_plot": "outputs\\seed_runs\\summary_seed5.png",
+    "warehouse_3d_plot": "outputs\\seed_runs\\warehouse_3d_seed5.png",
+    "history": "outputs\\seed_runs\\history_seed5.npz"
+  },
+  {
+    "seed": 6,
+    "source_pos": [
+      2.878682578624357,
+      -4.5243315013537195,
+      0.6155187695951325
+    ],
+    "success": true,
+    "steps": 196,
+    "final_distance": 0.42329546566625653,
+    "max_ee_ppm": 1553.3665713469577,
+    "collision_count": 0,
+    "state_counts": {
+      "RANDOM_WALK": 63,
+      "BASE_TRACKING": 9,
+      "ARM_TRACKING": 123,
+      "FINISHED": 1
+    },
+    "summary_plot": "outputs\\seed_runs\\summary_seed6.png",
+    "warehouse_3d_plot": "outputs\\seed_runs\\warehouse_3d_seed6.png",
+    "history": "outputs\\seed_runs\\history_seed6.npz"
+  },
+  {
+    "seed": 7,
+    "source_pos": [
+      4.75311086003274,
+      -0.38478056587535114,
+      0.6909097280457941
+    ],
+    "success": false,
+    "steps": 3000,
+    "final_distance": 6.8642605104290055,
+    "max_ee_ppm": 0.6526137751716596,
+    "collision_count": 0,
+    "state_counts": {
+      "RANDOM_WALK": 3000
+    },
+    "summary_plot": "outputs\\seed_runs\\summary_seed7.png",
+    "warehouse_3d_plot": "outputs\\seed_runs\\warehouse_3d_seed7.png",
+    "history": "outputs\\seed_runs\\history_seed7.npz"
+  },
+  {
+    "seed": 8,
+    "source_pos": [
+      -6.28874245643561,
+      -0.252414550047396,
+      0.6724056435254047
+    ],
+    "success": true,
+    "steps": 203,
+    "final_distance": 0.41832571374435285,
+    "max_ee_ppm": 1513.1339785698042,
+    "collision_count": 0,
+    "state_counts": {
+      "BASE_TRACKING": 2,
+      "ARM_TRACKING": 200,
+      "FINISHED": 1
+    },
+    "summary_plot": "outputs\\seed_runs\\summary_seed8.png",
+    "warehouse_3d_plot": "outputs\\seed_runs\\warehouse_3d_seed8.png",
+    "history": "outputs\\seed_runs\\history_seed8.npz"
+  },
+  {
+    "seed": 9,
+    "source_pos": [
+      -7.574596248518445,
+      -0.7530239984458955,
+      0.7454832980931865
+    ],
+    "success": false,
+    "steps": 3000,
+    "final_distance": 5.668758214044909,
+    "max_ee_ppm": 27.072219777980756,
+    "collision_count": 0,
+    "state_counts": {
+      "RANDOM_WALK": 31,
+      "BASE_TRACKING": 11,
+      "ARM_TRACKING": 2958
+    },
+    "summary_plot": "outputs\\seed_runs\\summary_seed9.png",
+    "warehouse_3d_plot": "outputs\\seed_runs\\warehouse_3d_seed9.png",
+    "history": "outputs\\seed_runs\\history_seed9.npz"
+  },
+  {
+    "seed": 10,
+    "source_pos": [
+      -1.1918560415203743,
+      5.483112041440394,
+      0.8475998719154395
+    ],
+    "success": false,
+    "steps": 3000,
+    "final_distance": 11.87694642115877,
+    "max_ee_ppm": 0.7045973974980605,
+    "collision_count": 0,
+    "state_counts": {
+      "RANDOM_WALK": 3000
+    },
+    "summary_plot": "outputs\\seed_runs\\summary_seed10.png",
+    "warehouse_3d_plot": "outputs\\seed_runs\\warehouse_3d_seed10.png",
+    "history": "outputs\\seed_runs\\history_seed10.npz"
+  }
+]
