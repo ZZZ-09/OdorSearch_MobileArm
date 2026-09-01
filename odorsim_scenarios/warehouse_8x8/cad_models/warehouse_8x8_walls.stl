@@ -1,0 +1,338 @@
+solid warehouse_8x8_walls
+  facet normal 0 0 0
+    outer loop
+      vertex -4.000000 3.900000 0.000000
+      vertex 4.000000 4.000000 0.000000
+      vertex 4.000000 3.900000 0.000000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex -4.000000 3.900000 0.000000
+      vertex -4.000000 4.000000 0.000000
+      vertex 4.000000 4.000000 0.000000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex -4.000000 3.900000 3.000000
+      vertex 4.000000 3.900000 3.000000
+      vertex 4.000000 4.000000 3.000000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex -4.000000 3.900000 3.000000
+      vertex 4.000000 4.000000 3.000000
+      vertex -4.000000 4.000000 3.000000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex -4.000000 3.900000 0.000000
+      vertex 4.000000 3.900000 0.000000
+      vertex 4.000000 3.900000 3.000000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex -4.000000 3.900000 0.000000
+      vertex 4.000000 3.900000 3.000000
+      vertex -4.000000 3.900000 3.000000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 4.000000 3.900000 0.000000
+      vertex 4.000000 4.000000 0.000000
+      vertex 4.000000 4.000000 3.000000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 4.000000 3.900000 0.000000
+      vertex 4.000000 4.000000 3.000000
+      vertex 4.000000 3.900000 3.000000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 4.000000 4.000000 0.000000
+      vertex -4.000000 4.000000 0.000000
+      vertex -4.000000 4.000000 3.000000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 4.000000 4.000000 0.000000
+      vertex -4.000000 4.000000 3.000000
+      vertex 4.000000 4.000000 3.000000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex -4.000000 4.000000 0.000000
+      vertex -4.000000 3.900000 0.000000
+      vertex -4.000000 3.900000 3.000000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex -4.000000 4.000000 0.000000
+      vertex -4.000000 3.900000 3.000000
+      vertex -4.000000 4.000000 3.000000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex -4.000000 -4.000000 0.000000
+      vertex 4.000000 -3.900000 0.000000
+      vertex 4.000000 -4.000000 0.000000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex -4.000000 -4.000000 0.000000
+      vertex -4.000000 -3.900000 0.000000
+      vertex 4.000000 -3.900000 0.000000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex -4.000000 -4.000000 3.000000
+      vertex 4.000000 -4.000000 3.000000
+      vertex 4.000000 -3.900000 3.000000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex -4.000000 -4.000000 3.000000
+      vertex 4.000000 -3.900000 3.000000
+      vertex -4.000000 -3.900000 3.000000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex -4.000000 -4.000000 0.000000
+      vertex 4.000000 -4.000000 0.000000
+      vertex 4.000000 -4.000000 3.000000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex -4.000000 -4.000000 0.000000
+      vertex 4.000000 -4.000000 3.000000
+      vertex -4.000000 -4.000000 3.000000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 4.000000 -4.000000 0.000000
+      vertex 4.000000 -3.900000 0.000000
+      vertex 4.000000 -3.900000 3.000000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 4.000000 -4.000000 0.000000
+      vertex 4.000000 -3.900000 3.000000
+      vertex 4.000000 -4.000000 3.000000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 4.000000 -3.900000 0.000000
+      vertex -4.000000 -3.900000 0.000000
+      vertex -4.000000 -3.900000 3.000000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 4.000000 -3.900000 0.000000
+      vertex -4.000000 -3.900000 3.000000
+      vertex 4.000000 -3.900000 3.000000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex -4.000000 -3.900000 0.000000
+      vertex -4.000000 -4.000000 0.000000
+      vertex -4.000000 -4.000000 3.000000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex -4.000000 -3.900000 0.000000
+      vertex -4.000000 -4.000000 3.000000
+      vertex -4.000000 -3.900000 3.000000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 3.900000 -4.000000 0.000000
+      vertex 4.000000 4.000000 0.000000
+      vertex 4.000000 -4.000000 0.000000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 3.900000 -4.000000 0.000000
+      vertex 3.900000 4.000000 0.000000
+      vertex 4.000000 4.000000 0.000000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 3.900000 -4.000000 3.000000
+      vertex 4.000000 -4.000000 3.000000
+      vertex 4.000000 4.000000 3.000000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 3.900000 -4.000000 3.000000
+      vertex 4.000000 4.000000 3.000000
+      vertex 3.900000 4.000000 3.000000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 3.900000 -4.000000 0.000000
+      vertex 4.000000 -4.000000 0.000000
+      vertex 4.000000 -4.000000 3.000000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 3.900000 -4.000000 0.000000
+      vertex 4.000000 -4.000000 3.000000
+      vertex 3.900000 -4.000000 3.000000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 4.000000 -4.000000 0.000000
+      vertex 4.000000 4.000000 0.000000
+      vertex 4.000000 4.000000 3.000000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 4.000000 -4.000000 0.000000
+      vertex 4.000000 4.000000 3.000000
+      vertex 4.000000 -4.000000 3.000000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 4.000000 4.000000 0.000000
+      vertex 3.900000 4.000000 0.000000
+      vertex 3.900000 4.000000 3.000000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 4.000000 4.000000 0.000000
+      vertex 3.900000 4.000000 3.000000
+      vertex 4.000000 4.000000 3.000000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 3.900000 4.000000 0.000000
+      vertex 3.900000 -4.000000 0.000000
+      vertex 3.900000 -4.000000 3.000000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex 3.900000 4.000000 0.000000
+      vertex 3.900000 -4.000000 3.000000
+      vertex 3.900000 4.000000 3.000000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex -4.000000 -4.000000 0.000000
+      vertex -3.900000 4.000000 0.000000
+      vertex -3.900000 -4.000000 0.000000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex -4.000000 -4.000000 0.000000
+      vertex -4.000000 4.000000 0.000000
+      vertex -3.900000 4.000000 0.000000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex -4.000000 -4.000000 3.000000
+      vertex -3.900000 -4.000000 3.000000
+      vertex -3.900000 4.000000 3.000000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex -4.000000 -4.000000 3.000000
+      vertex -3.900000 4.000000 3.000000
+      vertex -4.000000 4.000000 3.000000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex -4.000000 -4.000000 0.000000
+      vertex -3.900000 -4.000000 0.000000
+      vertex -3.900000 -4.000000 3.000000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex -4.000000 -4.000000 0.000000
+      vertex -3.900000 -4.000000 3.000000
+      vertex -4.000000 -4.000000 3.000000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex -3.900000 -4.000000 0.000000
+      vertex -3.900000 4.000000 0.000000
+      vertex -3.900000 4.000000 3.000000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex -3.900000 -4.000000 0.000000
+      vertex -3.900000 4.000000 3.000000
+      vertex -3.900000 -4.000000 3.000000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex -3.900000 4.000000 0.000000
+      vertex -4.000000 4.000000 0.000000
+      vertex -4.000000 4.000000 3.000000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex -3.900000 4.000000 0.000000
+      vertex -4.000000 4.000000 3.000000
+      vertex -3.900000 4.000000 3.000000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex -4.000000 4.000000 0.000000
+      vertex -4.000000 -4.000000 0.000000
+      vertex -4.000000 -4.000000 3.000000
+    endloop
+  endfacet
+  facet normal 0 0 0
+    outer loop
+      vertex -4.000000 4.000000 0.000000
+      vertex -4.000000 -4.000000 3.000000
+      vertex -4.000000 4.000000 3.000000
+    endloop
+  endfacet
+endsolid warehouse_8x8_walls

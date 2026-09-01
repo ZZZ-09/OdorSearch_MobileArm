@@ -1,0 +1,23 @@
+# Single ethanol point source.
+# Initial position is arbitrary; the bridge publishes the runtime position.
+source:
+  sourceType: point
+  position: [5.5, 2.5, 0.9]
+  gasType: 0            # ethanol
+deltaTime: 0.05         # s per AdvanceTimestep -> 20 Hz control loop
+windIterationDeltaTime: 1
+temperature: 298
+pressure: 1
+filamentPPMcenter: 200
+filamentInitialSigma: 25
+filamentGrowthGamma: 25
+filamentNoise_std: 0.02
+numFilaments_sec: 80
+expectedNumIterations: 24000
+saveResults: false
+saveDeltaTime: 0.5
+preCalculateConcentrations: false
+windLooping:
+  loop: false
+  from: 0
+  to: 0

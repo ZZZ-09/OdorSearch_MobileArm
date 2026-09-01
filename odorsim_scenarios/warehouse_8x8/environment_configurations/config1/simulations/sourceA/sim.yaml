@@ -1,0 +1,21 @@
+source:
+  sourceType: point
+  position: [2.0, 1.0, 0.8]
+  gasType: 0            # ethanol
+deltaTime: 0.05
+windIterationDeltaTime: 1
+temperature: 298
+pressure: 1
+filamentPPMcenter: 200
+filamentInitialSigma: 25
+filamentGrowthGamma: 25
+filamentNoise_std: 0.02
+numFilaments_sec: 80
+expectedNumIterations: 24000
+saveResults: false
+saveDeltaTime: 0.5
+preCalculateConcentrations: false
+windLooping:
+  loop: false
+  from: 0
+  to: 0

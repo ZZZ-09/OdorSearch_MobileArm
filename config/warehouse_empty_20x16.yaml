@@ -1,0 +1,66 @@
+# 20×16 m 空仓库环境（无内部障碍物），用于 OdorSim/GADEN 仿真验证。
+# 边界与 odorsim_scenarios/warehouse_20x16 保持一致。
+
+environment:
+  name: "Warehouse_Empty_20x16"
+  bounds:
+    x: [-10.0, 10.0]
+    y: [-8.0, 8.0]
+    z: [0.0, 5.0]
+
+  dt: 0.05              # 与 GADEN deltaTime 保持一致
+  max_steps: 10000
+
+  randomize: true
+
+random_generation:
+  source:
+    x_range: [-8.0, 8.0]
+    y_range: [-6.0, 6.0]
+    z_range: [0.6, 0.9]
+
+  num_boxes: 0
+  num_cylinders: 0
+
+  min_obstacle_gap: 1.2
+  min_source_to_obstacle: 1.5
+  min_start_to_obstacle: 1.5
+
+  default_start: [-7.0, -6.5, 0.0]
+
+odor_source:
+  position: [5.5, 2.5, 0.9]
+  radius: 0.08
+  gas: "ethanol"
+  strength: 3000.0
+  wind: [0.5, -0.2, 0.0]
+
+plume:
+  model: "gaden"
+  background: 0.0
+  detection_threshold: 5.0
+  diffusion_coefficient: 0.8
+  turbulence: 0.0
+  turbulence_update_interval: 2.0
+
+obstacles:
+  # 仅保留外墙用于可视化边界
+  - name: "north_wall"
+    type: "box"
+    center: [0.0, 8.05, 2.5]
+    size: [20.0, 0.1, 5.0]
+
+  - name: "south_wall"
+    type: "box"
+    center: [0.0, -8.05, 2.5]
+    size: [20.0, 0.1, 5.0]
+
+  - name: "east_wall"
+    type: "box"
+    center: [10.05, 0.0, 2.5]
+    size: [0.1, 16.0, 5.0]
+
+  - name: "west_wall"
+    type: "box"
+    center: [-10.05, 0.0, 2.5]
+    size: [0.1, 16.0, 5.0]

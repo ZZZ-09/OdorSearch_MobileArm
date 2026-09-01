@@ -1,0 +1,78 @@
+# 8×8 m 带障碍仓库配置（用于 OdorSim/GADEN + 解析环境）
+# 本配置启用随机障碍物生成：每次 reset 会根据 seed 生成不同的 box/cylinder 障碍物布局。
+# 四面外墙保持静态，内部障碍物随机生成，并保证源位置与起点均可到达。
+
+environment:
+  name: "Warehouse_Obstacle_8x8"
+  bounds:
+    x: [-4.0, 4.0]
+    y: [-4.0, 4.0]
+    z: [0.0, 3.0]
+
+  dt: 0.05
+  max_steps: 10000
+
+  randomize: true
+
+random_generation:
+  source:
+    x_range: [-2.0, 3.0]
+    y_range: [-2.0, 3.0]
+    z_range: [0.5, 0.9]
+
+  # 每轮随机生成 3 个 box + 1 个 cylinder，与静态外墙共同构成障碍环境
+  num_boxes: 3
+  num_cylinders: 1
+
+  # 随机障碍物尺寸范围
+  box_size_ranges:
+    length: [0.8, 1.8]
+    width: [0.6, 1.4]
+    height: [1.0, 2.2]
+
+  cylinder:
+    radius_range: [0.12, 0.30]
+    length_range: [2.0, 3.0]
+
+  min_obstacle_gap: 1.2
+  min_source_to_obstacle: 1.5
+  min_start_to_obstacle: 1.5
+
+  default_start: [-3.0, -3.0, 0.0]
+
+odor_source:
+  position: [2.0, 1.0, 0.8]
+  radius: 0.08
+  gas: "ethanol"
+  strength: 3000.0
+  wind: [0.3, -0.1, 0.0]
+
+plume:
+  model: "gaden"
+  background: 0.0
+  detection_threshold: 5.0
+  diffusion_coefficient: 0.8
+  turbulence: 0.0
+  turbulence_update_interval: 2.0
+
+obstacles:
+  # 外墙（始终静态）
+  - name: "north_wall"
+    type: "box"
+    center: [0.0, 4.05, 1.5]
+    size: [8.0, 0.1, 3.0]
+
+  - name: "south_wall"
+    type: "box"
+    center: [0.0, -4.05, 1.5]
+    size: [8.0, 0.1, 3.0]
+
+  - name: "east_wall"
+    type: "box"
+    center: [4.05, 0.0, 1.5]
+    size: [0.1, 8.0, 3.0]
+
+  - name: "west_wall"
+    type: "box"
+    center: [-4.05, 0.0, 1.5]
+    size: [0.1, 8.0, 3.0]

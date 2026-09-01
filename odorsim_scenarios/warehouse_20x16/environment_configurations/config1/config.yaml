@@ -1,0 +1,10 @@
+# Warehouse 20x16 m empty room for mobile-base + arm odor source localization.
+# Matches OdorSearch_MobileArm/config/warehouse.yaml bounds: x [-10,10], y [-8,8], z [0,5].
+# No internal obstacles (walls only); GADEN preprocessing runs at odor_gaden_rt startup.
+models:
+  - ../../cad_models/warehouse_20x16_walls.stl
+outlets_models: []
+unprocessed_wind_files: ../../wind_simulations/uniform/wind
+empty_point: [0.0, 0.0, 1.0]
+cell_size: 0.25
+uniformWind: true
