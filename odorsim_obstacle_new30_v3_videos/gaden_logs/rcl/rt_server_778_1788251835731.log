@@ -1,0 +1,9 @@
+[INFO] [1788251835.821675312] [GADEN]: Found simulation configuration: sourceA
+[INFO] [1788251835.867029514] [GADEN]: Found playback configuration: scene1
+[INFO] [1788251835.945232873] [OdorGadenRT]: Environment ready: 40x40x15 cells, cellSize 0.2 m, bounds (-4, -4, 0) - (4, 4, 3)
+[INFO] [1788251835.959652536] [OdorGadenRT]: Source 0: gas 'ethanol' at (2.00, 1.00, 0.80)
+[INFO] [1788251835.962638287] [OdorGadenRT]: Waiting for /gaden/step messages (lockstep mode), dt = 0.050 s
+[INFO] [1788251835.963929742] [OdorGadenRT]: [34modor_gaden_rt ready.[0m
+[INFO] [1788251836.370627880] [OdorGadenRT]: Reset: simTime=0, scene rebuilt (fresh episode)
+[INFO] [1788251836.405225049] [OdorGadenRT]: Reset: simTime=0, scene rebuilt (fresh episode)
+[INFO] [1788251881.781700427] [rclcpp]: signal_handler(SIGINT/SIGTERM)
